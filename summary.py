@@ -17,4 +17,5 @@ def summary(*args):
     for num in args_ch:
         summ += num
     return summ
-print(summary(["aboba",1,2]))
+test_list=["aboba",1,2]
+print(summary(test_list*)
